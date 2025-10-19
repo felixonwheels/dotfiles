@@ -1,0 +1,40 @@
+[global_config]
+  dbus = False
+  handle_size = 0
+  borderless = True
+  inactive_color_offset = 0.801089918256
+  enabled_plugins = LaunchpadBugURLHandler, LaunchpadCodeURLHandler, APTURLHandler, TerminatorThemes
+[keybindings]
+  cycle_next = ""
+  cycle_prev = ""
+  split_horiz = <Primary><Shift>z
+  split_vert = <Primary><Shift>a
+  page_up_half = <Primary>Page_Up
+  page_down_half = <Primary>Page_Down
+  scaled_zoom = <Primary><Shift>l
+  next_tab = <Primary><Shift><Alt>Down
+  prev_tab = <Primary><Shift><Alt>Page_Up
+[profiles]
+  [[default]]
+    allow_bold = False
+    background_color = "#0e1019"
+    background_darkness = 0.9
+    background_type = transparent
+    cursor_shape = underline
+    font = Mononoki Nerd Font 13
+    foreground_color = "#fffaf4"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_infinite = True
+    palette = "#232323:#ff000f:#8ce10b:#ffb900:#008df8:#6d43a6:#00d8eb:#ffffff:#444444:#ff2740:#abe15b:#ffd242:#0092ff:#9a5feb:#67fff0:#ffffff"
+    use_system_font = False
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      profile = default
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]

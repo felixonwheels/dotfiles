@@ -1,0 +1,480 @@
+[Connections]
+first-run=false
+window-size=(1024, 768)
+
+[Console]
+last-window-maximised=true
+last-window-size=(652, 480)
+
+[Contacts]
+did-initial-setup=true
+
+[Extensions]
+window-maximized=true
+
+[Snapshot]
+capture-mode='video'
+is-maximized=false
+window-height=640
+window-width=800
+
+[Weather]
+locations=[<(uint32 2, <('Paris', 'LFPB', true, [(0.85462956287765413, 0.042760566673861078)], [(0.8528842336256599, 0.040724343395436846)])>)>]
+window-height=658
+window-maximized=false
+window-width=443
+
+[baobab/ui]
+is-maximized=false
+window-size=(960, 600)
+
+[calculator]
+accuracy=9
+angle-units='degrees'
+base=10
+button-mode='basic'
+number-format='automatic'
+show-thousands=false
+show-zeroes=false
+source-currency=''
+source-units='degree'
+target-currency=''
+target-units='radian'
+window-maximized=false
+window-size=(360, 489)
+word-size=64
+
+[calendar]
+active-view='month'
+week-view-zoom-level=1.0
+window-maximized=true
+window-size=(402, 600)
+
+[cheese]
+burst-delay=1000
+camera='Integrated Camera (V4L2)'
+photo-x-resolution=1280
+photo-y-resolution=720
+video-x-resolution=1280
+video-y-resolution=720
+
+[control-center]
+last-panel='keyboard'
+window-state=(640, 640, true)
+
+[desktop/app-folders]
+folder-children=['Utilities', 'YaST', 'Pardus']
+
+[desktop/app-folders/folders/Pardus]
+categories=['X-Pardus-Apps']
+name='X-Pardus-Apps.directory'
+translate=true
+
+[desktop/app-folders/folders/Utilities]
+apps=['gnome-abrt.desktop', 'gnome-system-log.desktop', 'nm-connection-editor.desktop', 'org.gnome.baobab.desktop', 'org.gnome.Connections.desktop', 'org.gnome.DejaDup.desktop', 'org.gnome.Dictionary.desktop', 'org.gnome.DiskUtility.desktop', 'org.gnome.Evince.desktop', 'org.gnome.FileRoller.desktop', 'org.gnome.fonts.desktop', 'org.gnome.Loupe.desktop', 'org.gnome.seahorse.Application.desktop', 'org.gnome.tweaks.desktop', 'org.gnome.Usage.desktop', 'vinagre.desktop']
+categories=['X-GNOME-Utilities']
+name='X-GNOME-Utilities.directory'
+translate=true
+
+[desktop/app-folders/folders/YaST]
+categories=['X-SuSE-YaST']
+name='suse-yast.directory'
+translate=true
+
+[desktop/background]
+color-shading-type='solid'
+picture-options='zoom'
+picture-uri='file:///usr/share/backgrounds/gnome/vnc-l.png'
+picture-uri-dark='file:///usr/share/backgrounds/gnome/vnc-d.png'
+primary-color='#77767B'
+secondary-color='#000000'
+
+[desktop/input-sources]
+mru-sources=[('xkb', 'fr')]
+sources=[('xkb', 'fr')]
+xkb-options=['terminate:ctrl_alt_bksp']
+
+[desktop/interface]
+color-scheme='prefer-dark'
+cursor-theme='capitaine-cursors'
+document-font-name='Ubuntu Nerd Font 11'
+enable-hot-corners=false
+font-antialiasing='grayscale'
+font-hinting='slight'
+font-name='Ubuntu Nerd Font 11'
+monospace-font-name='Mononoki Nerd Font 10'
+show-battery-percentage=true
+
+[desktop/notifications]
+application-children=['org-gnome-console', 'org-gnome-shell-extensions', 'firefox', 'org-gnome-baobab', 'org-gnome-nautilus', 'gnome-network-panel', 'gnome-power-panel', 'org-gnome-software', 'org-mozilla-thunderbird', 'org-gnome-epiphany', 'org-gnome-builder', 'org-gnome-extensions-desktop', 'org-gnome-extensions', 'transmission-qt', 'code', 're-sonny-workbench', 'org-inkscape-inkscape', 'org-gnome-evolution-alarm-notify', 'gnome-printers-panel', 'chromium', 'io-gitlab-adhami3310-impression', 'google-chrome', 'android-studio', 'megasync', 'typora', 'gnome-about-panel', 'dev-zed-zed', 'org-pulseaudio-pavucontrol', 'libreoffice-impress', 'zoom', 'fluffychat', 'calibre-gui']
+show-banners=true
+
+[desktop/notifications/application/android-studio]
+application-id='android-studio.desktop'
+
+[desktop/notifications/application/calibre-gui]
+application-id='calibre-gui.desktop'
+
+[desktop/notifications/application/chromium]
+application-id='chromium.desktop'
+
+[desktop/notifications/application/code]
+application-id='code.desktop'
+
+[desktop/notifications/application/dev-zed-zed]
+application-id='dev.zed.Zed.desktop'
+
+[desktop/notifications/application/firefox]
+application-id='firefox.desktop'
+
+[desktop/notifications/application/fluffychat]
+application-id='fluffychat.desktop'
+
+[desktop/notifications/application/gnome-about-panel]
+application-id='gnome-about-panel.desktop'
+
+[desktop/notifications/application/gnome-network-panel]
+application-id='gnome-network-panel.desktop'
+
+[desktop/notifications/application/gnome-power-panel]
+application-id='gnome-power-panel.desktop'
+
+[desktop/notifications/application/gnome-printers-panel]
+application-id='gnome-printers-panel.desktop'
+
+[desktop/notifications/application/google-chrome]
+application-id='google-chrome.desktop'
+
+[desktop/notifications/application/io-gitlab-adhami3310-impression]
+application-id='io.gitlab.adhami3310.Impression.desktop'
+
+[desktop/notifications/application/libreoffice-impress]
+application-id='libreoffice-impress.desktop'
+
+[desktop/notifications/application/megasync]
+application-id='megasync.desktop'
+
+[desktop/notifications/application/org-gnome-baobab]
+application-id='org.gnome.baobab.desktop'
+
+[desktop/notifications/application/org-gnome-builder]
+application-id='org.gnome.Builder.desktop'
+
+[desktop/notifications/application/org-gnome-console]
+application-id='org.gnome.Console.desktop'
+
+[desktop/notifications/application/org-gnome-epiphany]
+application-id='org.gnome.Epiphany.desktop'
+
+[desktop/notifications/application/org-gnome-evolution-alarm-notify]
+application-id='org.gnome.Evolution-alarm-notify.desktop'
+
+[desktop/notifications/application/org-gnome-extensions-desktop]
+application-id='org.gnome.Extensions.desktop.desktop'
+
+[desktop/notifications/application/org-gnome-extensions]
+application-id='org.gnome.Extensions.desktop'
+
+[desktop/notifications/application/org-gnome-nautilus]
+application-id='org.gnome.Nautilus.desktop'
+
+[desktop/notifications/application/org-gnome-shell-extensions]
+application-id='org.gnome.Shell.Extensions.desktop'
+
+[desktop/notifications/application/org-gnome-software]
+application-id='org.gnome.Software.desktop'
+
+[desktop/notifications/application/org-inkscape-inkscape]
+application-id='org.inkscape.Inkscape.desktop'
+
+[desktop/notifications/application/org-mozilla-thunderbird]
+application-id='org.mozilla.Thunderbird.desktop'
+
+[desktop/notifications/application/org-pulseaudio-pavucontrol]
+application-id='org.pulseaudio.pavucontrol.desktop'
+
+[desktop/notifications/application/re-sonny-workbench]
+application-id='re.sonny.Workbench.desktop'
+
+[desktop/notifications/application/transmission-qt]
+application-id='transmission-qt.desktop'
+
+[desktop/notifications/application/typora]
+application-id='typora.desktop'
+
+[desktop/notifications/application/zoom]
+application-id='Zoom.desktop'
+
+[desktop/peripherals/mouse]
+natural-scroll=true
+
+[desktop/peripherals/touchpad]
+send-events='enabled'
+tap-to-click=true
+two-finger-scrolling-enabled=true
+
+[desktop/privacy]
+old-files-age=uint32 30
+recent-files-max-age=-1
+
+[desktop/screensaver]
+color-shading-type='solid'
+picture-options='zoom'
+picture-uri='file:///usr/share/backgrounds/gnome/vnc-l.png'
+primary-color='#77767B'
+secondary-color='#000000'
+
+[desktop/search-providers]
+sort-order=['org.gnome.Contacts.desktop', 'org.gnome.Documents.desktop', 'org.gnome.Nautilus.desktop']
+
+[desktop/session]
+idle-delay=uint32 0
+
+[desktop/wm/keybindings]
+switch-applications=['<Alt>Tab']
+switch-applications-backward=['<Shift><Alt>Tab']
+
+[desktop/wm/preferences]
+titlebar-font='Ubuntu Nerd Font Bold 11'
+
+[epiphany]
+ask-for-default=false
+
+[epiphany/state]
+is-maximized=true
+window-size=(1920, 1048)
+
+[epiphany/web]
+last-upload-directory='/home/omni/Téléchargements'
+
+[evolution-data-server]
+migrated=true
+
+[evolution-data-server/calendar]
+notify-window-height=279
+notify-window-paned-position=73
+notify-window-width=271
+notify-window-x=26
+notify-window-y=23
+reminders-past=['71d2886b37eb79230c4976bd75785dc685f38171\n1d6e3887226d3ba4b6115edfaac4ddabd43c2225\t20251019\n1760860800\n1760832000\n1760918400\nBEGIN:VEVENT\r\nDTSTART;VALUE=DATE:20251019\r\nDTEND;VALUE=DATE:20251020\r\nRRULE:FREQ=YEARLY\r\nDTSTAMP:20241019T173622Z\r\nUID:CFAEC668-FB88-44B1-9629-8B819D67A774\r\nCREATED:20191016T181011Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20241019T173622Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Shreya\r\nTRANSP:OPAQUE\r\nX-EVOLUTION-CALDAV-ETAG:63865042582\r\nRECURRENCE-ID;VALUE=DATE:20251019\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:PT8H\r\nX-EVOLUTION-ALARM-UID:1d6e3887226d3ba4b6115edfaac4ddabd43c2225\r\nEND:VALARM\r\nEND:VEVENT\r\n', '71d2886b37eb79230c4976bd75785dc685f38171\n7eb2f0ff91c3c9c4fae785d5917e9cb3ee841318\t20251019T100000\n1760859900\n1760860800\n1760864400\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Paris:20251019T100000\r\nDTEND;TZID=Europe/Paris:20251019T110000\r\nDTSTAMP:20251019T092111Z\r\nUID:40bd16153a314beb98bb10bc3c5b9f6a\r\nCREATED:20250907T170209Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20251019T092111Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Semi de Vincennes Pierre\r\nTRANSP:OPAQUE\r\nX-EVOLUTION-CALDAV-ETAG:63896548871\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT15M\r\nX-EVOLUTION-ALARM-UID:7eb2f0ff91c3c9c4fae785d5917e9cb3ee841318\r\nEND:VALARM\r\nEND:VEVENT\r\n', '71d2886b37eb79230c4976bd75785dc685f38171\ncaf13afb1bf9657b1b973418be0ea810397a7e64\t20251019\n1760832000\n1760832000\n1760918400\nBEGIN:VEVENT\r\nDTSTART;VALUE=DATE:20251019\r\nDTEND;VALUE=DATE:20251020\r\nRRULE:FREQ=YEARLY\r\nDTSTAMP:20241019T173440Z\r\nUID:b18f0ddfb51d4cd38ee4732cacee0698\r\nCREATED:20221020T184919Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20241019T173440Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Anniversaire Stéphane PatriNat\r\nTRANSP:TRANSPARENT\r\nX-EVOLUTION-CALDAV-ETAG:63865042480\r\nRECURRENCE-ID;VALUE=DATE:20251019\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:PT0S\r\nX-EVOLUTION-ALARM-UID:caf13afb1bf9657b1b973418be0ea810397a7e64\r\nEND:VALARM\r\nEND:VEVENT\r\n', '71d2886b37eb79230c4976bd75785dc685f38171\n79a2ae12e25e5e10037ad6794283912e2c175ae7\t20251019\n1760832000\n1760832000\n1760918400\nBEGIN:VEVENT\r\nDTSTART;VALUE=DATE:20251019\r\nDTEND;VALUE=DATE:20251020\r\nEXDATE;VALUE=DATE:20251102\r\nRRULE:FREQ=WEEKLY;COUNT=12\r\nEXDATE;VALUE=DATE:20251005\r\nDTSTAMP:20251012T183016Z\r\nUID:bde6faa97aae4fd984019b8a31f7f412\r\nCREATED:20250905T164915Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20251012T183016Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:🏃\u200d♂️\r\nTRANSP:TRANSPARENT\r\nX-MOZ-GENERATION:1\r\nX-MOZ-GOOGLE-HTML-DESCRIPTION:true\r\nX-EVOLUTION-CALDAV-ETAG:63895977016\r\nRECURRENCE-ID;VALUE=DATE:20251019\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:PT0S\r\nX-EVOLUTION-ALARM-UID:79a2ae12e25e5e10037ad6794283912e2c175ae7\r\nEND:VALARM\r\nEND:VEVENT\r\n', '71d2886b37eb79230c4976bd75785dc685f38171\n0dedcccbf714ff17f387b6b86965c3a090b4a6b1\t20251018\n1760745600\n1760745600\n1760832000\nBEGIN:VEVENT\r\nDTSTART;VALUE=DATE:20251018\r\nDTEND;VALUE=DATE:20251019\r\nRRULE:FREQ=WEEKLY\r\nEXDATE;VALUE=DATE:20250927\r\nEXDATE;VALUE=DATE:20251011\r\nDTSTAMP:20251011T174435Z\r\nUID:1a311eb79e0b455c886cff2f9575a6d1\r\nCREATED:20250905T165000Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20251011T174435Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:renfo\r\nTRANSP:TRANSPARENT\r\nX-EVOLUTION-CALDAV-ETAG:63895887875\r\nRECURRENCE-ID;VALUE=DATE:20251018\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:PT0S\r\nX-EVOLUTION-ALARM-UID:0dedcccbf714ff17f387b6b86965c3a090b4a6b1\r\nEND:VALARM\r\nEND:VEVENT\r\n', '71d2886b37eb79230c4976bd75785dc685f38171\n101188e52c08be788ae35042c902540a9873b62b\t20251017T160000\n1760708700\n1760709600\n1760713200\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Paris:20251017T160000\r\nDTEND;TZID=Europe/Paris:20251017T170000\r\nDTSTAMP:20251015T220300Z\r\nUID:09731836a80d4b768d1a057284acfae3\r\nCREATED:20251015T164024Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20251015T220300Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:aller voir nanie ?\r\nTRANSP:OPAQUE\r\nX-EVOLUTION-CALDAV-ETAG:63896248980\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT15M\r\nX-EVOLUTION-ALARM-UID:101188e52c08be788ae35042c902540a9873b62b\r\nEND:VALARM\r\nEND:VEVENT\r\n', '71d2886b37eb79230c4976bd75785dc685f38171\n9ef4fa37c8d1fe706fa278010f60f56b8e8502d5\t20251016T180000\n1760629500\n1760630400\n1760634000\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Paris:20251016T180000\r\nDTEND;TZID=Europe/Paris:20251016T190000\r\nDTSTAMP:20251015T155124Z\r\nUID:8237fb16eddf4a50a7f053792bd0ec77\r\nCREATED:20251010T142935Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20251015T155124Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:4\r\nSTATUS:CONFIRMED\r\nSUMMARY:envoyer mail galloyer\r\nTRANSP:OPAQUE\r\nX-EVOLUTION-CALDAV-ETAG:63896226684\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT15M\r\nX-EVOLUTION-ALARM-UID:9ef4fa37c8d1fe706fa278010f60f56b8e8502d5\r\nEND:VALARM\r\nEND:VEVENT\r\n', '71d2886b37eb79230c4976bd75785dc685f38171\nb24d0a714e5911baabdf52912aafaf6e0210e719\t20251016T180000\n1760629500\n1760630400\n1760634000\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Paris:20251016T180000\r\nDTEND;TZID=Europe/Paris:20251016T190000\r\nDTSTAMP:20251015T155134Z\r\nUID:f4351d1426e04e6c96853cb94f03dc31\r\nCREATED:20251015T155134Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20251015T155134Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:mael Agathe\r\nTRANSP:OPAQUE\r\nX-EVOLUTION-CALDAV-ETAG:63896226694\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT15M\r\nX-EVOLUTION-ALARM-UID:b24d0a714e5911baabdf52912aafaf6e0210e719\r\nEND:VALARM\r\nEND:VEVENT\r\n', '71d2886b37eb79230c4976bd75785dc685f38171\n5c53a1883aac3e8ac790f6e3b160f34e37ef0e48\t20251015T180000\n1760543100\n1760544000\n1760547600\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Paris:20251015T180000\r\nDTEND;TZID=Europe/Paris:20251015T190000\r\nDTSTAMP:20251014T172005Z\r\nUID:8237fb16eddf4a50a7f053792bd0ec77\r\nCREATED:20251010T142935Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20251014T172005Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:3\r\nSTATUS:CONFIRMED\r\nSUMMARY:envoyer mail galloyer\r\nTRANSP:OPAQUE\r\nX-EVOLUTION-CALDAV-ETAG:63896145605\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT15M\r\nX-EVOLUTION-ALARM-UID:5c53a1883aac3e8ac790f6e3b160f34e37ef0e48\r\nEND:VALARM\r\nEND:VEVENT\r\n', '71d2886b37eb79230c4976bd75785dc685f38171\nb866d59441d2a24d24aa66e023f33a2765b5b867\t20251015T170000\n1760539500\n1760540400\n1760544000\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Paris:20251015T170000\r\nDTEND;TZID=Europe/Paris:20251015T180000\r\nDTSTAMP:20251015T110353Z\r\nUID:487bfeb87fd74a52a9e4d7c16c613fdd\r\nCREATED:20251015T110353Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20251015T110353Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:acheter pain\r\nTRANSP:OPAQUE\r\nX-EVOLUTION-CALDAV-ETAG:63896209433\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT15M\r\nX-EVOLUTION-ALARM-UID:b866d59441d2a24d24aa66e023f33a2765b5b867\r\nEND:VALARM\r\nEND:VEVENT\r\n', '71d2886b37eb79230c4976bd75785dc685f38171\n789891ebeaaaa7d497932d0d30c39eac92007064\t20251014T180000\n1760456700\n1760457600\n1760461200\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Paris:20251014T180000\r\nDTEND;TZID=Europe/Paris:20251014T190000\r\nDTSTAMP:20251014T073348Z\r\nUID:8237fb16eddf4a50a7f053792bd0ec77\r\nCREATED:20251010T142935Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20251014T073348Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:2\r\nSTATUS:CONFIRMED\r\nSUMMARY:envoyer mail galloyer\r\nTRANSP:OPAQUE\r\nX-EVOLUTION-CALDAV-ETAG:63896110428\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT15M\r\nX-EVOLUTION-ALARM-UID:789891ebeaaaa7d497932d0d30c39eac92007064\r\nEND:VALARM\r\nEND:VEVENT\r\n', '71d2886b37eb79230c4976bd75785dc685f38171\n213b4242bb783b2562af2e479d6fc9a987f53642\t20251013T180000\n1760370300\n1760371200\n1760374800\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Paris:20251013T180000\r\nDTEND;TZID=Europe/Paris:20251013T190000\r\nDTSTAMP:20251012T183016Z\r\nUID:8237fb16eddf4a50a7f053792bd0ec77\r\nCREATED:20251010T142935Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20251012T183016Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:envoyer mail galloyer\r\nTRANSP:OPAQUE\r\nX-EVOLUTION-CALDAV-ETAG:63895977016\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT15M\r\nX-EVOLUTION-ALARM-UID:213b4242bb783b2562af2e479d6fc9a987f53642\r\nEND:VALARM\r\nEND:VEVENT\r\n', '71d2886b37eb79230c4976bd75785dc685f38171\nbd1c9a1be464bac20664598c4c198c0675c31917\t20251011T180000\n1760197500\n1760198400\n1760202000\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Paris:20251011T180000\r\nDTEND;TZID=Europe/Paris:20251011T190000\r\nDTSTAMP:20251009T210151Z\r\nUID:d4d2f289c1484f6eb5384d5b4eaa6678\r\nCREATED:20250925T185841Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20251009T210151Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:12\r\nSTATUS:CONFIRMED\r\nSUMMARY:appel Mathieu vélo\r\nTRANSP:OPAQUE\r\nX-EVOLUTION-CALDAV-ETAG:63895726911\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT15M\r\nX-EVOLUTION-ALARM-UID:bd1c9a1be464bac20664598c4c198c0675c31917\r\nEND:VALARM\r\nEND:VEVENT\r\n', '71d2886b37eb79230c4976bd75785dc685f38171\nd1540ba27509730198ee92def9061681f5a467b3\t20251011T170000\n1760193900\n1760194800\n1760198400\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Paris:20251011T170000\r\nDTEND;TZID=Europe/Paris:20251011T180000\r\nDTSTAMP:20251002T181510Z\r\nUID:971bd3d42d504dd7a168b5b098044777\r\nCREATED:20251002T181510Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20251002T181510Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:partir Paris\r\nTRANSP:OPAQUE\r\nX-EVOLUTION-CALDAV-ETAG:63895112110\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT15M\r\nX-EVOLUTION-ALARM-UID:d1540ba27509730198ee92def9061681f5a467b3\r\nEND:VALARM\r\nEND:VEVENT\r\n']
+
+[evolution]
+default-address-book='1c67d721acf2218897556922790f8e45829ee66c'
+
+[gedit/state/window]
+bottom-panel-size=140
+side-panel-active-page='GeditWindowDocumentsPanel'
+side-panel-size=200
+size=(900, 700)
+state=87168
+
+[gitg/preferences/interface]
+enable-monitoring=true
+
+[gitg/state/window]
+size=(650, 500)
+state=43908
+
+[gnome-system-monitor]
+current-tab='resources'
+maximized=true
+show-dependencies=false
+show-whose-processes='user'
+window-height=713
+window-width=1212
+
+[gnome-system-monitor/disktreenew]
+col-6-visible=true
+col-6-width=0
+
+[gnome-system-monitor/proctree]
+col-26-visible=false
+col-26-width=0
+
+[gthumb/browser]
+browser-sidebar-width=285
+folder-tree-sort-inverse=false
+folder-tree-sort-type='name'
+fullscreen-sidebar='hidden'
+fullscreen-thumbnails-visible=false
+maximized=true
+properties-visible=false
+sidebar-sections=['GthFileProperties:expanded', 'GthFileComment:expanded', 'GthFileDetails:expanded', 'GthImageHistogram:expanded', 'GthOpenMap:expanded']
+sidebar-visible=true
+sort-inverse=false
+sort-type='file::mtime'
+startup-current-file='file:///home/omni/Images/iphone-media-backup/110APPLE/IMG_0156.JPG'
+startup-location='file:///home/omni/Images/iphone-media-backup/110APPLE'
+statusbar-visible=true
+thumbnail-list-visible=true
+viewer-sidebar='properties'
+window-height=810
+window-width=1363
+
+[gthumb/data-migration]
+catalogs-2-10=true
+
+[gthumb/general]
+active-extensions=['bookmarks', 'burn_disc', 'catalogs', 'change_date', 'comments', 'contact_sheet', 'convert_format', 'desktop_background', 'edit_metadata', 'open_map', 'file_manager', 'find_duplicates', 'gstreamer_tools', 'gstreamer_utils', 'image_print', 'image_rotation', 'importer', 'jpeg_utils', 'list_tools', 'photo_importer', 'raw_files', 'red_eye_removal', 'rename_series', 'resize_images', 'search', 'selections', 'slideshow', 'terminal', 'webalbums']
+
+[gthumb/gstreamer-tools]
+mute=false
+volume=100
+zoom-to-fit=false
+
+[gthumb/photo-importer]
+delete-from-device=false
+filter='file::type::is_media'
+
+[maps]
+last-viewed-location=[46.436419029241101, 2.0716638018743936]
+map-type='MapsVectorSource'
+rotation=0.0
+transportation-type='pedestrian'
+window-maximized=true
+zoom-level=5
+
+[nautilus/preferences]
+default-folder-viewer='list-view'
+migrated-gtk-settings=true
+search-filter-time-type='last_modified'
+
+[nautilus/window-state]
+initial-size=(1629, 786)
+initial-size-file-chooser=(890, 550)
+maximized=false
+
+[nm-applet/eap/66f1e584-3947-4f45-800b-0f29ed67943a]
+ignore-ca-cert=false
+ignore-phase2-ca-cert=false
+
+[photos]
+window-maximized=true
+window-position=[-16, -13]
+window-size=[992, 632]
+
+[portal/filechooser/app.drey.Warp]
+last-folder-path='/home/omni/bike'
+
+[portal/filechooser/chromium]
+last-folder-path='/home/omni/Téléchargements/anna_python'
+
+[portal/filechooser/com.google.Chrome]
+last-folder-path='/home/omni/Téléchargements'
+
+[portal/filechooser/google-chrome]
+last-folder-path='/home/omni/Téléchargements'
+
+[portal/filechooser/io.github.vikdevelop.SaveDesktop]
+last-folder-path='/home/omni/Téléchargements'
+
+[portal/filechooser/io.gitlab.adhami3310.Impression]
+last-folder-path='/home/omni/Téléchargements'
+
+[portal/filechooser/nautilus]
+last-folder-path='/home/omni/Téléchargements'
+
+[portal/filechooser/org.gnome.Epiphany]
+last-folder-path='/home/omni/Téléchargements'
+
+[portal/filechooser/org.gnome.Settings]
+last-folder-path='/home/omni/Téléchargements/vpn_mnhn'
+
+[settings-daemon/plugins/color]
+night-light-enabled=true
+night-light-schedule-automatic=false
+night-light-temperature=uint32 2700
+
+[settings-daemon/plugins/housekeeping]
+donation-reminder-last-shown=int64 1758737468621302
+
+[settings-daemon/plugins/media-keys]
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom4/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom5/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom6/']
+
+[settings-daemon/plugins/media-keys/custom-keybindings/custom0]
+binding='<Super>Return'
+command='kitty --start-as maximized'
+name='kitty'
+
+[settings-daemon/plugins/media-keys/custom-keybindings/custom1]
+binding='<Super>Insert'
+command='systemctl suspend'
+name='suspend'
+
+[settings-daemon/plugins/media-keys/custom-keybindings/custom2]
+binding='<Super>Delete'
+command='poweroff'
+name='poweroff'
+
+[settings-daemon/plugins/media-keys/custom-keybindings/custom3]
+binding='<Super>n'
+command='nautilus'
+name='nautilus'
+
+[settings-daemon/plugins/media-keys/custom-keybindings/custom4]
+binding='<Super>Pause'
+command='poweroff'
+name='poweroff numpad'
+
+[settings-daemon/plugins/media-keys/custom-keybindings/custom5]
+binding='<Super>Print'
+command='systemctl suspend'
+name='suspend numpad'
+
+[settings-daemon/plugins/media-keys/custom-keybindings/custom6]
+binding='<Super>b'
+command='gnome-control-center'
+name='settings'
+
+[settings-daemon/plugins/power]
+sleep-inactive-ac-timeout=3600
+sleep-inactive-battery-timeout=3600
+
+[shell]
+enabled-extensions=['clipboard-indicator@tudmotu.com', 'compiz-windows-effect@hermes83.github.com', 'emoji-copy@felipeftn', 'Hide_Activities@shay.shayel.org', 'nightthemeswitcher@romainvigier.fr', 'color-picker@tuberry', 'kimpanel@kde.org', 'hide-dock-in-overview@roslax']
+favorite-apps=@as []
+welcome-dialog-last-shown-version='45.3'
+
+[shell/extensions/clipboard-indicator]
+history-size=200
+toggle-menu=['<Shift><Alt>v']
+
+[shell/extensions/color-picker]
+color-history=[uint32 0, 16613419, 13332750, 9121067]
+
+[shell/extensions/com/github/hermes83/compiz-windows-effect]
+friction=4.0
+mass=80.0
+maximize-effect=false
+resize-effect=false
+speedup-factor-divider=10.0
+spring-k=8.0
+
+[shell/extensions/emoji-copy]
+recently-used=['📺', '🕳️', '🌱', '🔴', '🟢', '🤓', '⬇️', '❤️', '😑', '🏡', '⚠️']
+
+[shell/extensions/nightthemeswitcher/time]
+manual-schedule=true
+nightthemeswitcher-ondemand-keybinding=['<Shift><Super>t']
+sunset=19.0
+
+[shell/keybindings]
+focus-active-notification=@as []
+
+[shell/weather]
+automatic-location=true
+locations=[<(uint32 2, <('Paris', 'LFPB', true, [(0.85462956287765413, 0.042760566673861078)], [(0.8528842336256599, 0.040724343395436846)])>)>]
+
+[shell/world-clocks]
+locations=@av []
+
+[software]
+check-timestamp=int64 1760866334
+first-run=false
+flatpak-purge-timestamp=int64 1760875557
+install-timestamp=int64 1757316957
+security-timestamp=int64 1713805662489300
+update-notification-timestamp=int64 1760778619
+
+[tweaks]
+show-extensions-notice=false

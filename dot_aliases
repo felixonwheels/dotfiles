@@ -1,0 +1,54 @@
+alias grep="grep --color=auto"
+alias l="eza -al --icons --git"
+alias lm="eza -al -s modified --icons --git"
+
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+
+alias c="bat"
+alias rm="trash"
+alias noconf="grep '^[^#;]'"
+
+alias hh="htop"
+alias y="paru"
+alias hx="helix"
+alias x="helix"
+alias xx="helix ."
+alias yy="yazi"
+alias rr='yazi'
+
+alias mountswhfs="~/swh-fuse-env/bin/python ~/swh-fuse-env/bin/swh fs mount ~/swhfs"
+
+alias py="python3"
+alias ipy="ipython3"
+alias ipi="ipython -i"
+
+alias cc="code ."
+
+alias gs="git status"
+alias ga="git add"
+alias gc="git commit -m"
+alias gam="git commit -am"
+alias gp="git push"
+alias gpp="git pull"
+alias gd="git diff"
+alias gl="git log --decorate --graph --all"
+alias gpo="git push origin master"
+alias gps="git push --set-upstream origin"
+
+alias ipa="ip -c -br a"
+
+alias sss="sudo glances"
+
+alias f="fvm flutter"
+alias ffc="fvm flutter clean"
+alias ffb="fvm dart run build_runner build --delete-conflicting-outputs"
+alias ffg="fvm flutter gen-l10n"
+alias ffm="fvm dart format -l 120 ."
+alias ffs="fvm dart run import_sorter:main --no-comments"
+alias ffp="fvm flutter pub get"
+alias fff="fvm flutter clean && fvm flutter pub get && fvm dart run build_runner build --delete-conflicting-outputs && fvm flutter gen-l10n && fvm dart format -l 120 . && fvm dart run import_sorter:main --no-comments"
+alias ffff="fvm flutter clean && fvm flutter pub get && fvm dart run build_runner build --delete-conflicting-outputs && fvm dart run flutter_launcher_icons && fvm dart run flutter_native_splash:create && fvm flutter gen-l10n && fvm dart format -l 120 . && fvm dart run import_sorter:main --no-comments"
+alias fffff="fvm flutter clean && fvm flutter pub get && fvm dart run build_runner build --delete-conflicting-outputs && fvm dart run flutter_launcher_icons && fvm dart run flutter_native_splash:create && fvm flutter gen-l10n && fvm dart format -l 120 . && fvm dart run import_sorter:main --no-comments && fvm flutter test test/unit_test/app_test.dart -r expanded -j 1"

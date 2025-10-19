@@ -1,0 +1,6 @@
+[flavor]
+dark = "vscode-dark-plus"
+light = "vscode-dark-plus"
+
+[mgr]
+border_style = { fg = "black" }

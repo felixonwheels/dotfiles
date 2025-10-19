@@ -1,0 +1,85 @@
+### ANTIGEN
+
+# loads antigen (zsh package manager)
+source $HOME/.config/antigen/antigen.zsh
+
+# loads zsh packages
+antigen use oh-my-zsh
+antigen bundle git
+antigen bundle heroku
+antigen bundle pip
+antigen bundle lein
+antigen bundle command-not-found
+antigen bundle zsh-users/zsh-autosuggestions
+antigen bundle common-aliases
+antigen bundle git-extras
+antigen bundle git-flow
+antigen bundle common-aliases
+antigen bundle "MichaelAquilina/zsh-you-should-use"
+antigen bundle zsh-users/zsh-completions
+antigen bundle supercrabtree/k
+antigen bundle zsh-users/zsh-syntax-highlighting
+
+# applies antigen config
+antigen apply
+
+### zsh and shell config
+
+# fixes shell quirks
+[[ $- != *i* ]] && return
+autoload -U colors && colors
+stty -ixon
+
+# fixes zsh stuff
+autoload -Uz compinit
+compinit
+
+# initializes some cool zsh tools
+eval "$(zoxide init zsh)"
+eval "$(starship init zsh)"
+
+# configures zsh histfile
+HISTSIZE=999999999
+SAVEHIST=$HISTSIZE
+HISTFILE=~/.zsh_history
+setopt HIST_FIND_NO_DUPS
+
+# sources the alias file
+. $HOME/.aliases
+
+# sets env variables used by the shell
+export VISUAL=helix
+export EDITOR=$VISUAL
+export PAGER=bat
+
+# sets some useful env variables for various programs
+export MAKEFLAGS="-j$(nproc)"
+export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
+export TIMEFMT=$'\n================\nCPU\t%P\nuser\t%*U\nsystem\t%*S\ntotal\t%*E'
+
+### various tools
+
+# defines a bunch of variables
+export PNPM_HOME="$HOME/.local/share/pnpm"
+export CHROME_EXECUTABLE="/usr/bin/chromium"
+export BUN_INSTALL="$HOME/.bun"
+
+# adds a bunch of directories to the ✨ $PATH ✨
+export PATH="$PATH:$PNPM_HOME"
+export PATH="$PATH:$HOME/.local/bin"
+export PATH="$PATH:$HOME/.cargo/bin"
+export PATH="$PATH:$BUN_INSTALL/bin"
+
+# sources a bunch of scripts
+. "$HOME/.deno/env"
+[ -s "$HOME/.bun/_bun" ] && source "$HOME/.bun/_bun"
+if [[ ":$FPATH:" != *":$HOME/.zsh/completions:"* ]]; then export FPATH="$HOME/.zsh/completions:$FPATH"; fi
+
+# defines a function for yazi
+function a() {
+	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
+	yazi "$@" --cwd-file="$tmp"
+	IFS= read -r -d '' cwd < "$tmp"
+	[ -n "$cwd" ] && [ "$cwd" != "$PWD" ] && builtin cd -- "$cwd"
+	rm -f -- "$tmp"
+}

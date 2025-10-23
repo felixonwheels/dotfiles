@@ -1,0 +1,49 @@
+theme = "dracula"
+
+[editor]
+line-number = "relative"
+cursorline = true
+mouse = true
+color-modes = true
+bufferline = "multiple"
+end-of-line-diagnostics = "hint"
+true-color = true
+completion-replace = true
+
+[editor.file-picker]
+hidden = false
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "underline"
+select = "underline"
+
+[editor.lsp]
+display-inlay-hints = true
+display-messages = true
+
+[editor.inline-diagnostics]
+cursor-line = "warning"
+
+[editor.soft-wrap]
+enable = true
+
+[editor.auto-save]
+focus-lost = true
+after-delay.enable = true
+after-delay.timeout = 3000
+
+[keys.normal]
+x = "select_line_below"
+X = "select_line_above"
+C-r = [
+  ":write-all",
+  ":insert-output scooter --no-stdin >/dev/tty",
+  ":redraw",
+  ":reload-all",
+]
+Cmd-tab = "goto_next_buffer"
+Cmd-S-tab = "goto_previous_buffer"
+
+[keys.normal.space]
+"H" = ":toggle lsp.display-inlay-hints"

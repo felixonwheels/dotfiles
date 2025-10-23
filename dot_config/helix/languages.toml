@@ -1,0 +1,75 @@
+# rust
+[[language]]
+name = "rust"
+auto-format = true
+
+# python
+[[language]]
+name = "python"
+auto-format = true
+
+[language.debugger]
+name = "debugpy"
+transport = "stdio"
+command = "uv"
+args = ["run", "python", "-m", "debugpy"]
+
+[[language.debugger.templates]]
+name = "source"
+request = "launch"
+completion = [{ name = "entrypoint", completion = "filename", default = "." }]
+args = { mode = "debug", program = "{0}" }
+
+# toml
+[[language]]
+name = "toml"
+auto-format = true
+
+[language-server.taplo]
+config = {}
+
+# markdown
+[[language]]
+name = "markdown"
+formatter = { command = 'deno', args = ["fmt", "-", "--ext", "md"] }
+auto-format = true
+comment-tokens = ["-", "+", "*", "- [ ]", ">"]
+
+# emmet
+[language-server.emmet-lsp]
+command = "emmet-language-server"
+args = ["--stdio"]
+
+# typescricpt
+[[language]]
+name = "typescript"
+formatter = { command = 'deno', args = ["fmt", "-"] }
+auto-format = true
+
+# html
+[[language]]
+name = "html"
+auto-format = true
+language-servers = ["vscode-html-language-server", "emmet-lsp"]
+
+# css
+[[language]]
+name = "css"
+auto-format = true
+
+# svelte
+[[language]]
+name = "svelte"
+language-servers = [
+  "emmet-lsp",
+  "tailwindcss-ls",
+  "vscode-css-language-server",
+  "svelteserver",
+]
+formatter = { command = "prettier", args = [
+  "--plugin",
+  "prettier-plugin-svelte",
+  "--parser",
+  "svelte",
+] }
+auto-format = true

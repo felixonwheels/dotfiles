@@ -18,6 +18,7 @@ alias x="helix"
 alias xx="helix ."
 alias yy="yazi"
 alias rr='yazi'
+alias open-webui="DATA_DIR=~/.open-webui uvx --python 3.11 open-webui@latest serve"
 
 alias mountswhfs="~/swh-fuse-env/bin/python ~/swh-fuse-env/bin/swh fs mount ~/swhfs"
 
